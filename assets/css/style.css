@@ -164,19 +164,37 @@ h3 {
     margin: 0 0 20px;
     padding-bottom: 22px;    
 }
-
+.social-wrap {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    width: 100%;
+}
 .social {
     color:white;
-    display: inline-block;
+    /* display: -webkit-inline-flex;
+    display: inline-flex; */
     height: 60px;
-    padding: 10px;
+    margin: auto;
+    padding: 0 10px;
     width: 60px;
 }
-.social a {
-    color: white;
+.social svg {
+    height: 60px;
+    width: 60px;
+
 }
+
 .github {
-    background: black;
+    background: #333;
+}
+.linkedin {
+    background: #007ab9;
+}
+.stackoverflow {
+    background: #ffa500;
 }
 
 
