@@ -271,7 +271,7 @@ footer {
     } */
     #header-content {
         /* margin: 0 auto; */
-        width: 730px;
+        width: 75%;
     }
     /* h1#header-title {
         background: #4aaaa5;
@@ -309,7 +309,7 @@ footer {
     } */
     #content {
         /* margin: 0 auto; */
-        width: 730px;
+        width: 75%;
     }
 
     /* SECTION */
@@ -416,15 +416,334 @@ footer {
         line-height: 2.4;
         margin: 20px auto 0;
         text-align: center; */
-        width: 7300px;
+        width: 75%;
     }
 
 }
 
 @media screen and (max-width: 768px){
-    
+    /* HEADER */
+    /* header {
+        background: #fff;
+        margin-bottom: 40px;
+
+    }
+    #header-wrapper {
+        border-bottom: 2px #ccc solid;
+    } */
+    #header-content {
+        /* margin: 0 auto; */
+        width: 95%;
+    }
+    /* h1#header-title {
+        background: #4aaaa5;
+        color: #fff;
+        display: inline-block;
+        font-size: 32px;
+        font-weight: bold;
+        margin: 20px 0 0 0;
+        padding: 30px;
+        
+    } */
+
+    /* NAVIGATION */
+    /* nav {
+        float: right;
+        margin: 38px 0;
+        text-align: right;
+    }
+
+    nav div {
+        display: inline-block;
+    }
+    nav .link {
+        padding: 10px;
+    }
+    nav .separator {
+        color: rgb(230, 230, 230);
+    } */
+
+
+
+    /* MAIN CONTENT which wraps around section and aside */
+    /* #content-wrapper {
+        flex: 1 0 auto;
+    } */
+    #content {
+        /* margin: 0 auto; */
+        width: 95%;
+    }
+
+    /* SECTION */
+    section {
+        /* background: #fff;
+        border: 2px solid #ddd; */
+        float: none;
+        /* line-height: 2em;
+        padding: 30px; */
+        width: 100%;
+    }
+/* 
+    h2.section-title {
+        color: #4aaaa5;
+        border: solid #ccc;
+        border-width: 0 0 3px 0;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 0 0 20px;
+        padding-bottom: 30px;   
+    }
+    */
+    .bioimage {
+        float: left;
+        /* height: auto; */
+        padding: 0 20px 20px 0;
+        width: 50%;
+    } 
+
+    /* ASIDE */
+    aside {
+        /* background: #fff;
+        border: 2px solid #ddd; */
+        float: none;
+        margin-top: 40px;
+        /* padding: 30px; */
+        width: 100%;
+    }
+    /* h3 {
+        color: #4aaaa5;
+        border: solid #ccc;
+        border-width: 0 0 2px 0;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 20px;
+        padding-bottom: 22px;    
+    } */
+
+
+
+    /* PORTFOLIO */
+    /* .portfolio-card {
+        background: gray;
+        display: inline-block;
+        height: 180px;
+        margin: 0 30px 30px 0;
+        position: relative;
+        width: 300px;
+        background-repeat: no-repeat;
+        background-size: 300px 180px; 
+    }
+    .portfolio-card-title {
+        background: #4aaaa5;
+        bottom: 20px;
+        color: #fff;   
+        line-height: 3;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+    .portfolio-card-bg-hangman {
+        background-image: url("../images/portfolio-hangman.jpg");
+    }
+    .portfolio-card-bg-rpg {
+        background-image: url("../images/portfolio-rpg.jpg");
+    }
+
+    .portfolio-card-bg-trivia {
+        background-image: url("../images/portfolio-trivia.jpg");
+    }
+    .portfolio-card-bg-rutgers {
+        background-image: url("../images/portfolio-rutgers.jpg");
+
+    }
+    .portfolio-card-bg-rock {
+        background-image: url("../images/portfolio-rock.jpg");
+
+    } */
+
+
+    /* FOOTER */
+    /* footer {
+        background: #666;
+        border:  solid #4aaaa5;
+        border-width: 4px 0 0 0;
+        margin-top: 40px;
+        width: 100%;
+
+        flex-shrink: 0;
+    } */
+    #footer-content {
+        /* background: #666;
+        color: #fff;
+        font-size: 12px;
+        line-height: 2.4;
+        margin: 20px auto 0;
+        text-align: center; */
+        width: 95%;
+    }  
 }
 
 @media screen and (max-width: 640px) {
-    
+    /* HEADER */
+    /* header {
+        background: #fff;
+        margin-bottom: 40px;
+
+    }
+    #header-wrapper {
+        border-bottom: 2px #ccc solid;
+    } */
+    #header-content {
+        /* margin: 0 auto; */
+        width: 100%;
+    }
+    h1#header-title {
+        /* background: #4aaaa5;
+        color: #fff; */
+        display: block;
+        /* font-size: 32px;
+        font-weight: bold; */
+        margin: 0;
+        /* padding: 30px; */
+        text-align: center;
+        
+    }
+
+    /* NAVIGATION */
+    nav {
+        float: none;
+        margin: 20px 0;
+        text-align: unset;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* nav div {
+        display: inline-block;
+    } */
+    nav .link {
+        padding: 0px;
+    }
+    /* nav .separator {
+        color: rgb(230, 230, 230);
+    } */
+
+
+
+    /* MAIN CONTENT which wraps around section and aside */
+    /* #content-wrapper {
+        flex: 1 0 auto;
+    } */
+    #content {
+        /* margin: 0 auto; */
+        /* width: 95%; */
+    }
+
+    /* SECTION */
+    section {
+        /* background: #fff;
+        border: 2px solid #ddd;
+        float: left;
+        line-height: 2em;
+        padding: 30px; */
+        width: 100%;
+    }
+/* 
+    h2.section-title {
+        color: #4aaaa5;
+        border: solid #ccc;
+        border-width: 0 0 3px 0;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 0 0 20px;
+        padding-bottom: 30px;   
+    }
+    */
+    .bioimage {
+        float: left;
+        /* height: auto; */
+        padding: 0 20px 20px 0;
+        width: 50%;
+    } 
+
+    /* ASIDE */
+    aside {
+        /* background: #fff;
+        border: 2px solid #ddd;
+        float: right;
+        margin-top: 40px;
+        padding: 30px;
+        width: 100%; */
+    }
+    /* h3 {
+        color: #4aaaa5;
+        border: solid #ccc;
+        border-width: 0 0 2px 0;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0 0 20px;
+        padding-bottom: 22px;    
+    } */
+
+
+
+    /* PORTFOLIO */
+    /* .portfolio-card {
+        background: gray;
+        display: inline-block;
+        height: 180px;
+        margin: 0 30px 30px 0;
+        position: relative;
+        width: 300px;
+        background-repeat: no-repeat;
+        background-size: 300px 180px; 
+    }
+    .portfolio-card-title {
+        background: #4aaaa5;
+        bottom: 20px;
+        color: #fff;   
+        line-height: 3;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+    .portfolio-card-bg-hangman {
+        background-image: url("../images/portfolio-hangman.jpg");
+    }
+    .portfolio-card-bg-rpg {
+        background-image: url("../images/portfolio-rpg.jpg");
+    }
+
+    .portfolio-card-bg-trivia {
+        background-image: url("../images/portfolio-trivia.jpg");
+    }
+    .portfolio-card-bg-rutgers {
+        background-image: url("../images/portfolio-rutgers.jpg");
+
+    }
+    .portfolio-card-bg-rock {
+        background-image: url("../images/portfolio-rock.jpg");
+
+    } */
+
+
+    /* FOOTER */
+    /* footer {
+        background: #666;
+        border:  solid #4aaaa5;
+        border-width: 4px 0 0 0;
+        margin-top: 40px;
+        width: 100%;
+
+        flex-shrink: 0;
+    } */
+    #footer-content {
+        /* background: #666;
+        color: #fff;
+        font-size: 12px;
+        line-height: 2.4;
+        margin: 20px auto 0;
+        text-align: center; */
+        /* width: 95%; */
+    }      
 }
