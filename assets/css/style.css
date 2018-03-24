@@ -612,7 +612,7 @@ footer {
     /* NAVIGATION */
     nav {
         float: none;
-        margin: 20px 0;
+        margin: 20px;
         text-align: unset;
         display: flex;
         justify-content: space-around;
@@ -648,17 +648,17 @@ footer {
         padding: 30px; */
         width: 100%;
     }
-/* 
+
     h2.section-title {
-        color: #4aaaa5;
+        /* color: #4aaaa5;
         border: solid #ccc;
-        border-width: 0 0 3px 0;
-        font-size: 22px;
-        font-weight: bold;
+        border-width: 0 0 3px 0; */
+        font-size: 32px;
+        /* font-weight: bold;
         margin: 0 0 20px;
-        padding-bottom: 30px;   
+        padding-bottom: 30px;    */
     }
-    */
+   
     .bioimage {
         float: left;
         /* height: auto; */
