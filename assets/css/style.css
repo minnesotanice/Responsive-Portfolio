@@ -205,11 +205,13 @@ h3 {
     margin: auto;
     padding: 0;
     transition: all 1s;
-    width: 60px;   
+    width: 60px;
 }
+
 .social:hover {
     transform: scale(1.25);
 }
+
 .social a,
 .social a:link,
 .social a:visited,
@@ -306,7 +308,7 @@ footer {
     h3 {}
     .social {
         height: 40px;
-        width: 40px;   
+        width: 40px;
     }
     /* PORTFOLIO */
     .portfolio-card {}
@@ -427,7 +429,13 @@ footer {
     aside {}
     h3 {}
     /* PORTFOLIO */
-    .portfolio-card {}
+    .portfolio-card {
+        display: block;
+        width: 100%;
+    }
+    .portfolio-card:nth-child(even) {
+        margin-left: 0;
+    }
     .portfolio-card-title {}
     /* FOOTER */
     footer {}
