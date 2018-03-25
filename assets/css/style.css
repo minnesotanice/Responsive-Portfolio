@@ -205,9 +205,7 @@ h3 {
     margin: auto;
     padding: 0;
     transition: all 1s;
-    width: 60px;
-
-    
+    width: 60px;   
 }
 .social:hover {
     transform: scale(1.25);
@@ -306,6 +304,10 @@ footer {
     /* ASIDE */
     aside {}
     h3 {}
+    .social {
+        height: 40px;
+        width: 40px;   
+    }
     /* PORTFOLIO */
     .portfolio-card {}
     .portfolio-card-title {}
