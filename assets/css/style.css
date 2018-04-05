@@ -246,6 +246,10 @@ h3 {
     position: relative;
 }
 
+.portfolio-card-border {
+    border: 1px solid #ddd;
+}
+
 .portfolio-card-title {
     background: #4aaaa5;
     bottom: 20px;
